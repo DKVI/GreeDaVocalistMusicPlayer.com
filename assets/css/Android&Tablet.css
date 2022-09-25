@@ -1,0 +1,77 @@
+@media only screen and (max-width: 820px) {
+    #main {
+        display: block;
+        background-color: #9eb39e;
+        position: relative;
+    }
+
+
+    .heading {
+        position: absolute;
+        top: 6%;
+        color: white;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 50px;
+        display: block;
+    }
+
+
+    .container-CD {
+        width: 100%;
+        padding: 50px;
+        transform: translateY(120px);
+    }
+
+    .CD {
+        width: 400px;
+        height: 400px;
+    }
+
+    .container-music {
+        width: 100%;
+        height: 50%;
+        transform: translateY(90px);
+    }
+
+    .btn {
+        margin: 0 20px;
+    }
+
+    .nav-container .btn i {
+        color: white;
+    }
+
+
+    .play-btn {
+        background-color: rgb(103, 223, 197);
+    }
+
+    .song-item {
+        opacity: 1;
+    }
+
+    .container-music {
+        padding: 0 80px 80px 80px;
+    }
+
+
+    .container-music {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+    
+
+    .music-player-nav {
+        padding-bottom: 40px;
+        border-bottom: 1px solid #cccc;
+        box-sizing: unset;
+    }
+
+
+
+    #main .list {
+        order: 1;
+    }
+}
